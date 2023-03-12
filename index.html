@@ -14,47 +14,70 @@
             background-attachment: fixed;
         }
         
-      
         p {
             font-size: 30px;
             font-weight: normal;
             color: #000;
             text-align: center;
             line-height: 50px;
-            font-family: "方正舒体";
+            font-family: "arial", "sans-serif";
+        }
+        .button{
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            border-radius: 12px;
+           float:right;
         }
     </style>
+  
 </head>
 <body>
  
     <p id="words">words for one day</p>
-    <hr>
+    
+
+    
+    <button class="button" onclick="openmusic()">
+        播放 <audio id="music" src="" autoplay="autoplay" loop="loop" ></audio>
+    </button>
    
 
     <script>
         // 随机一言
-        axios.get('https://api.shserve.cn/api/yiyan')
+        axios.get('https://v1.hitokoto.cn/')
         .then(function (response) {
             console.log(response);
-            document.getElementById('words').innerHTML = response.data;
+            document.getElementById('words').innerHTML = response.data.hitokoto;
         })
         .catch(function (error) {
             console.log(error);
         });
 
-        // //网易云热评
-        // axios.get('https://api.shserve.cn/api/wyyrp')
-        // .then(function (response) {
-        //     console.log(response);
-        //     document.getElementById('wordstwo').innerHTML = response.data.data[7].content;
-        //     // document.getElementById('wordstwo').innerHTML = response.data[0].content;
-       
-
-
-        // })
-        // .catch(function (error) {
-        //     console.log(error);
-        // });
+        //music
+        function openmusic(){
+            //网易云音乐解析url的id为网易云歌曲的id
+        //   axios.get('https://api.shserve.cn/api/wyy?url=https://y.music.163.com/m/song?id=167827')
+          axios.get('https://api.shserve.cn/api/wyyrp')
+        .then(function (response) {
+            console.log(response);
+            document.getElementById('music').src = response.data.data.url;
+            console.log(response.data.data.song);
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+        }
 
     </script>
 </body>
