@@ -104,5 +104,5 @@ theme: fluid
 deploy:
   type: git
   repo: https://github.com/qhangz/qhangz.github.io.git
-  branch: main
-  token: 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
+  branch: gh-pages
+  token: 
