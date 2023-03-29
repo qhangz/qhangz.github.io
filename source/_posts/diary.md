@@ -11,9 +11,10 @@ sticky: 100
 ## 记录一下
 
 ### 今天是3.28
-水篇article
-欢迎访问我的[github profile](https://github.com/qhangz)
+>水篇article
+>欢迎访问我的[github profile](https://github.com/qhangz)
 
 ### 今天是3.29
-做一下评论和访问量统计的功能
+>做一下评论和访问量统计的功能
 可以用了, nice
+不是很清楚leancloud的计费规则所以还是用busuanzi好了
