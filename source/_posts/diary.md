@@ -1,8 +1,11 @@
 ---
 title: Diary
+excerpt: Summary
 date: 2023-03-28 21:48:11
-tags:
+tags: Diary
+sticky: 100
 ---
+<!-- more -->
 # MY DIARY
 
 ## 记录一下
@@ -13,3 +16,4 @@ tags:
 
 ### 今天是3.29
 做一下评论和访问量统计的功能
+可以用了, nice
