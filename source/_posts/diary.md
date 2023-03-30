@@ -5,6 +5,7 @@ date: 2023-03-28 21:48:11
 tags: Diary
 sticky: 100
 # hide: true
+index_img: /img/photo.png
 ---
 <!-- more -->
 # My Diary
