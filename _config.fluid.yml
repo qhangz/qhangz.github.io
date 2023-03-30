@@ -735,7 +735,7 @@ post:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: twikoo
 
 
 #---------------------------
@@ -1081,8 +1081,8 @@ static_prefix:
 
   katex: https://lib.baomitu.com/KaTeX/0.16.2/
 
-  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
-  # busuanzi: https://busuanzi.icodeq.com/
+  # busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/
+  busuanzi: https://busuanzi.icodeq.com/
 
   clipboard: https://lib.baomitu.com/clipboard.js/2.0.11/
 
