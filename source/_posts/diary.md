@@ -4,6 +4,7 @@ excerpt: Summary
 date: 2023-03-28 21:48:11
 tags: Diary
 sticky: 100
+# hide: true
 ---
 <!-- more -->
 # My Diary
@@ -19,3 +20,8 @@ sticky: 100
 不是很清楚leancloud的计费规则所以还是用busuanzi好了。
 busuanzi官方api好像炸了无法访问，用了一位大佬的自建API:[网址](https://busuanzi.icodeq.com/)。
 青训营day1
+
+### 3.30
+<p class="note note-primary">用一下标签，上面就不改了</p>
+
+>青训营day2
