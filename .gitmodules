@@ -1,0 +1,4 @@
+[submodule "Hexo-Theme-Butterfly"]
+    path = themes/Acrylic
+    url = https://github.com/jerryc127/hexo-theme-butterfly.git
+    brach = main
