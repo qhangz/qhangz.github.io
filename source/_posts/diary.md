@@ -7,7 +7,7 @@ sticky: 100
 # hide: true
 index_img: /img/photo.png
 ---
-<!-- more -->
+
 # My Diary
 
 ## 记录一下
