@@ -1,4 +1,4 @@
 [submodule "Hexo-Theme-Butterfly"]
-    path = themes/Acrylic
+    path = themes/Butterfly
     url = https://github.com/qhangz/qhangz.github.io.git
     brach = main
