@@ -34,7 +34,8 @@ You Only Live Once
 ### 4.1
 >开始尝试butterfly主题了。感觉fluid相比butterfly有一些单一了哈哈哈。
 
-
+### 4.3
+>今天终于把butterfly主题部署到githubio上了，关于submodule这玩意折腾了很久
 
 
 
