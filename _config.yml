@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Yolo
-subtitle: ''
-description: ''
+title: Yolo   #标题
+subtitle: ''    #副标题
+description: ''   #个性签名
 keywords:
 author: qhangz
 language: zh-CN
-timezone: ''
+timezone: ''    #时区
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -45,7 +45,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
