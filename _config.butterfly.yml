@@ -129,6 +129,7 @@ category_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
 #  - category name: xxxxx
 category_per_img: 'linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347)'
 
+
 cover:
   # display the cover or not (是否顯示文章封面)
   index_enable: true
@@ -534,7 +535,7 @@ tag_ui: # 留空或 index
 background: 
 
 # Footer Background
-footer_bg: false
+footer_bg: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom: 
@@ -661,7 +662,7 @@ preloader:
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
 
-# aside (側邊欄)
+# aside (侧边栏)
 # --------------------------------------
 
 aside:
@@ -681,7 +682,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/qhangz
   card_announcement:
     enable: true
     content: This is my Blog
@@ -856,7 +857,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
   blur: false
