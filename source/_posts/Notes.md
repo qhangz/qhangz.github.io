@@ -1,7 +1,12 @@
 ---
 title: Notes
 date: 2023-04-01 23:12:44
+sticky: 100
 tags:
+	-notes
+categories: 
+	-notes
+cover: 
 ---
 ### 一、一些基本的操作
 >创建页面：hexo new page ***

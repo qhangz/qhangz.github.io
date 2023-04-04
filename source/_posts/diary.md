@@ -3,9 +3,8 @@ title: Diary
 excerpt: Summary
 date: 2023-03-28 21:48:11
 tags: Diary
-sticky: 100
 hide: true
-index_img: 
+cocer: https://file.crazywong.com/gh/jerryc127/CDN@latest/cover/default_bg.png
 ---
 
 # My Diary
@@ -35,6 +34,41 @@ You Only Live Once
 
 ### 4.3
 今天终于把butterfly主题部署到githubio上了，关于submodule这玩意折腾了很久
+
+### 4.4
+{% tabs test4 %}
+<!-- tab @fab fa-apple-pay -->
+**只有圖標 沒有Tab名字**
+<!-- endtab -->
+<!-- tab 炸彈@fas fa-bomb -->
+**名字+icon**
+<!-- endtab -->
+{% endtabs %}
+
+{% tabs test4 %}
+<!-- tab inline -->
+哪個英文字母最酷？ {% hideInline 因為西裝褲(C裝酷),查看答案,#FF7242,#fff %}
+門裏站着一個人? {% hideInline 閃 %}
+<!-- endtab -->
+<!-- tab Block -->
+查看答案
+{% hideBlock 查看答案 %}
+傻子，怎麼可能有答案
+{% endhideBlock %}
+<!-- endtab -->
+<!-- tab Toggle -->
+{% hideToggle Butterfly安裝方法 %}
+在你的博客根目錄裏
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
+如果想要安裝比較新的dev分支，可以
+git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly
+{% endhideToggle %}
+<!-- endtab -->
+{% endtabs %}
+
+
+
+This is my website, click the button {% btn 'https://github.com/qhangz',GitHub,far fa-hand-point-right,outline %}
 
 
 
