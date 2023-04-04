@@ -3,9 +3,9 @@ title: Notes
 date: 2023-04-01 23:12:44
 sticky: 100
 tags:
-	-notes
+- notes
 categories: 
-	-notes
+- notes
 cover: 
 ---
 ### 一、一些基本的操作
