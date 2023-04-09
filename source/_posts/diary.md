@@ -2,9 +2,9 @@
 title: Diary
 excerpt: Summary
 date: 2023-03-28 21:48:11
-tags: Diary
-categories: Diary
-# hide: true
+tags: diary
+categories: diary
+hide: true
 cocer: https://file.crazywong.com/gh/jerryc127/CDN@latest/cover/default_bg.png
 ---
 
@@ -69,7 +69,7 @@ git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/Bu
 
 
 
-This is my website, click the button {% btn 'https://github.com/qhangz',GitHub,far fa-hand-point-right,outline %}
+This is my GitHub profile, click the button {% btn 'https://github.com/qhangz',GitHub,far fa-hand-point-right,outline %}
 
 
 

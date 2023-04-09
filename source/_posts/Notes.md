@@ -32,4 +32,4 @@ git submodule add https://github.com/jerryc127/hexo-theme-butterfly.git themes/b
 	url = https://github.com/jerryc127/hexo-theme-butterfly.git
 ```
 
-
+This is my GitHub profile, click the button {% btn 'https://github.com/qhangz',GitHub,far fa-hand-point-right,outline %}
