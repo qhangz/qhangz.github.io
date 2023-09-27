@@ -1,9 +1,10 @@
 - class_name: 友情鏈接
   class_desc: 那些人，那些事
   link_list:
-    - name: 天涯 の 小窝
-      link: https://blog.ptianya.top/
-      avatar: https://blog.ptianya.top/img/icon.svg
+    - name: 个人博客
+      link: http://study.zqhang.top/
+      # avatar: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+      avatar: ../img/avatar.jpg
       descr: 技术源于热爱
 
 - class_name: 網站
