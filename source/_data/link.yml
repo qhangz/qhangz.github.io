@@ -1,10 +1,10 @@
 - class_name: 友情鏈接
   class_desc: 那些人，那些事
   link_list:
-    - name: 个人博客
-      link: http://study.zqhang.top/
+    - name: CodeX
+      link: http://www.zqhang.top/
       # avatar: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
-      avatar: ../img/avatar.jpg
+      avatar: ../img/codex.png
       descr: 技术源于热爱
 
 - class_name: 網站
