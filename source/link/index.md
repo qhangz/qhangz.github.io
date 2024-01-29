@@ -1,5 +1,5 @@
 ---
 title: Link
 date: 2023-04-01 22:07:01
-type: Link
+type: link
 ---
