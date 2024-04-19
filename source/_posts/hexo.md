@@ -16,10 +16,6 @@ cocer: https://file.crazywong.com/gh/jerryc127/CDN@latest/cover/default_bg.png
 ### 评论和访问量统计的功能
 一位大佬的自建API:[网址](https://busuanzi.icodeq.com/)。
 
-#### some slogan:
-Ready for the future !
-Always be yourself
-You Only Live Once
 
 ### other
 {% tabs test4 %}
