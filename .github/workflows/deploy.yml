@@ -13,6 +13,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          submodules: true   # 自动初始化并更新子模块
+          fetch-depth: 0     # 必须设为 0，否则子模块可能不完整
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -23,10 +26,7 @@ jobs:
         run: npm install
 
       - name: Build Hexo
-        run: |
-          npx hexo clean
-          npx hexo generate
-          npx hexo generate --debug
+        run: npx hexo generate
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
