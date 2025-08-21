@@ -1,10 +1,11 @@
 ---
-title: Hello-Hexo
+title: Hello Hexo
 date: 2025-08-20 21:08:49
 tags: 
 - hexo
 categories: 
 - hexo
+cover: https://hexo.io/icon/favicon-196x196.png
 ---
 ### 关于Hexo的一些基本操作
 >创建标签页：hexo new page ***
