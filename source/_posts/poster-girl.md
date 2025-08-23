@@ -6,7 +6,8 @@ tags:
 - 看板娘
 categories: 
 - beautify
-cover: ../imgs/posts/poster-girl.png
+cover: ../imgs/posts/poster-girl/cover.png
+top_img: false
 ---
 为站点加入可爱的看板娘。
 
